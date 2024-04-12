@@ -7,7 +7,7 @@ public class HotelBookingSystem {
     public HotelBookingSystem() {
         try {
             // Connect to the database
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_booking", "root", "jishnu211004.");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_booking", "root", "asdfghjkl;1");
         } catch (SQLException e) {
             e.printStackTrace();
         }
